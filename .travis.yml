@@ -5,10 +5,10 @@ addons:
     apt:
       packages:
         ant
- sonarcloud:
- organization: EmDonato
- token:
- secure: 6VKWje5u9lw0Tokp4y2c2g
+    sonarcloud:
+    organization: EmDonato
+    token:
+        secure: 6VKWje5u9lw0Tokp4y2c2g
 script:
 - ant build 
 - sonar-scanner
